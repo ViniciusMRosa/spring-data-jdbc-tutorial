@@ -7,6 +7,8 @@ import org.springframework.data.relational.core.mapping.Table;
 
 
 @RequiredArgsConstructor(staticName = "of")
+@AllArgsConstructor
+@NoArgsConstructor
 @Data
 public class User{
     @Id
